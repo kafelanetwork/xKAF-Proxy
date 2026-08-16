@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://xkaf.org/icon.png" alt="xKAF Logo" width="100" />
+  <img src="https://pub-8612282489694303a75db33076c8a071.r2.dev/dark-Ddj2CDlw.png" alt="xKAF Logo" width="100" />
   <h1>xKAF Proxy & Mirror</h1>
   <p><strong>Deploy your own permanent, unblockable mirror of xKAF in seconds — for FREE!</strong></p>
   <p>
