@@ -17,7 +17,7 @@ Choose your favorite free hosting provider below to deploy instantly.
 | :--- | :--- | :--- | :--- |
 | **Cloudflare** | [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/kafelanetwork/xKAF-Proxy) | 1 min | ⚡️⚡️⚡️ (Global Edge) |
 | **Vercel** | [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkafelanetwork%2FxKAF-Proxy) | 1 min | ⚡️⚡️⚡️ (Fast) |
-| **Deno Deploy** | [![Deploy to Deno](https://shield.io/badge/Deploy_to-Deno-black?logo=deno)](https://dash.deno.com/new?repo=https://github.com/kafelanetwork/xKAF-Proxy) | 1 min | ⚡️⚡️⚡️ (V8 Edge) |
+| **Deno Deploy** | [![Deploy to Deno](https://shields.io/badge/Deploy_to-Deno-black?logo=deno)](https://dash.deno.com/new?repo=https://github.com/kafelanetwork/xKAF-Proxy) | 1 min | ⚡️⚡️⚡️ (V8 Edge) |
 | **Netlify** | [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kafelanetwork/xKAF-Proxy) | 1 min | ⚡️⚡️ (Reliable) |
 | **Render** | [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/kafelanetwork/xKAF-Proxy) | 2 mins | ⚡️⚡️ (Static Edge) |
 
