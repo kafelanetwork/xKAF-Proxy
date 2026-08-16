@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: xkaf-proxy
+    env: static
+    staticPublishPath: ./
+    routes:
+      - type: rewrite
+        source: /*
+        destination: https://xkaf.org/*
