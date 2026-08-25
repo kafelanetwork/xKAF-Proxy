@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "https://xkaf.org/$1"
+      "destination": "https://xkaf.store/$1"
     }
   ]
 }
