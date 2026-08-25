@@ -1,6 +1,6 @@
 Deno.serve(async (req) => {
   const url = new URL(req.url);
-  const targetUrl = "https://xkaf.org" + url.pathname + url.search;
+  const targetUrl = "https://xkaf.store" + url.pathname + url.search;
   
   const modifiedRequest = new Request(targetUrl, {
     method: req.method,
