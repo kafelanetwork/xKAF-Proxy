@@ -37,7 +37,7 @@ Cloudflare provides the best edge performance. We use a lightweight JS worker (`
 export default {
   async fetch(request) {
     const url = new URL(request.url);
-    const targetUrl = 'https://xkaf.org' + url.pathname + url.search;
+    const targetUrl = 'https://xkaf.store' + url.pathname + url.search;
 
     const modifiedRequest = new Request(targetUrl, {
       method: request.method,
@@ -67,7 +67,7 @@ Vercel allows zero-code proxies using their built-in rewrite engine.
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "https://xkaf.org/$1"
+      "destination": "https://xkaf.store/$1"
     }
   ]
 }
@@ -80,7 +80,7 @@ Deno Deploy runs TypeScript natively at the edge. It's incredibly fast and devel
 ```typescript
 Deno.serve(async (req) => {
   const url = new URL(req.url);
-  const targetUrl = "https://xkaf.org" + url.pathname + url.search;
+  const targetUrl = "https://xkaf.store" + url.pathname + url.search;
   
   const modifiedRequest = new Request(targetUrl, {
     method: req.method,
@@ -108,7 +108,7 @@ Similar to Vercel, Netlify handles proxies at the edge via a simple configuratio
 ```toml
 [[redirects]]
   from = "/*"
-  to = "https://xkaf.org/:splat"
+  to = "https://xkaf.store/:splat"
   status = 200
   force = true
 ```
@@ -126,7 +126,7 @@ services:
     routes:
       - type: rewrite
         source: /*
-        destination: https://xkaf.org/*
+        destination: https://xkaf.store/*
 ```
 
 ---
