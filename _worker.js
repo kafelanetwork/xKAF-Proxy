@@ -1,7 +1,7 @@
 export default {
   async fetch(request) {
     const url = new URL(request.url);
-    const targetUrl = 'https://xkaf.org' + url.pathname + url.search;
+    const targetUrl = 'https://xkaf.store' + url.pathname + url.search;
 
     const modifiedRequest = new Request(targetUrl, {
       method: request.method,
